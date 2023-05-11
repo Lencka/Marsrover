@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target odometry[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odometry.dir/src/odometry.cpp.o[0m
+[100%] [32m[1mLinking CXX executable odometry[0m
+[100%] Built target odometry
+-- Install configuration: ""
+-- Installing: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/lib/ros2_mapping/odometry
+-- Set runtime path of "/home/felix/ydlidar_ros2_ws/install/ros2_mapping/lib/ros2_mapping/odometry" to ""
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/launch
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/launch/online_async_launch.py
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/config
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/config/mapper_params_online_async.yaml
+-- Installing: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ament_index/resource_index/package_run_dependencies/ros2_mapping
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ament_index/resource_index/parent_prefix_path/ros2_mapping
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/ament_prefix_path.sh
+-- Installing: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/path.sh
+-- Installing: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/path.dsv
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.bash
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.sh
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.zsh
+-- Installing: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.dsv
+-- Installing: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/package.dsv
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ament_index/resource_index/packages/ros2_mapping
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/cmake/ros2_mappingConfig.cmake
+-- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/cmake/ros2_mappingConfig-version.cmake
+-- Installing: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/package.xml

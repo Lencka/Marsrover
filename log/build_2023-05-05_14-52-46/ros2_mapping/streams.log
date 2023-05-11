@@ -1,0 +1,35 @@
+[0.061s] Invoking command in '/home/felix/ydlidar_ros2_ws/build/ros2_mapping': /usr/bin/cmake --build /home/felix/ydlidar_ros2_ws/build/ros2_mapping -- -j6 -l6
+[0.220s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.267s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.504s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.550s] Error parsing '/home/felix/ydlidar_ros2_ws/src/ros2_mapping/package.xml':
+[0.677s] Traceback (most recent call last):
+[0.677s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[0.677s]     main()
+[0.677s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[0.677s]     raise e
+[0.677s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[0.677s]     package = parse_package_string(
+[0.677s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[0.677s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[0.677s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/felix/ydlidar_ros2_ws/src/ros2_mapping/package.xml':
+[0.677s] Error(s):
+[0.677s] - The generic dependency on '' is redundant with: build_depend, build_export_depend, exec_depend
+[0.677s] - The "depend" tag must not have the following attributes: package
+[0.677s] - The "depend" tag must not have the following attributes: package
+[0.699s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.699s]   execute_process(/usr/bin/python3
+[0.699s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.699s]   /home/felix/ydlidar_ros2_ws/src/ros2_mapping/package.xml
+[0.699s]   /home/felix/ydlidar_ros2_ws/build/ros2_mapping/ament_cmake_core/package.cmake)
+[0.699s]   returned error code 1
+[0.699s] Call Stack (most recent call first):
+[0.699s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.700s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.700s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.700s] 
+[0.700s] 
+[0.700s] -- Configuring incomplete, errors occurred!
+[0.700s] See also "/home/felix/ydlidar_ros2_ws/build/ros2_mapping/CMakeFiles/CMakeOutput.log".
+[0.702s] make: *** [Makefile:222: cmake_check_build_system] Fehler 1
+[0.705s] Invoked command in '/home/felix/ydlidar_ros2_ws/build/ros2_mapping' returned '2': /usr/bin/cmake --build /home/felix/ydlidar_ros2_ws/build/ros2_mapping -- -j6 -l6

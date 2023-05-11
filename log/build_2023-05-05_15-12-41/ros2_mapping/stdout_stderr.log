@@ -1,0 +1,92 @@
+[35m[1mScanning dependencies of target odometry[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odometry.dir/src/odometry.cpp.o[0m
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:6:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+    6 |   [01;31m[Kros[m[K::init(argc, argv, "odometry_publisher");
+      |   [01;31m[K^~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:8:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+    8 |   [01;31m[Kros[m[K::NodeHandle n;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:9:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+    9 |   [01;31m[Kros[m[K::Publisher odom_pub = n.advertise<nav_msgs::Odometry>("odom", 50);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:10:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf[m[K’ has not been declared
+   10 |   [01;31m[Ktf[m[K::TransformBroadcaster odom_broadcaster;
+      |   [01;31m[K^~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:20:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   20 |   [01;31m[Kros[m[K::Time current_time, last_time;
+      |   [01;31m[K^~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:21:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_time[m[K’ was not declared in this scope
+   21 |   [01;31m[Kcurrent_time[m[K = ros::Time::now();
+      |   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:21:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   21 |   current_time = [01;31m[Kros[m[K::Time::now();
+      |                  [01;31m[K^~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:22:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kasctime[m[K’?
+   22 |   [01;31m[Klast_time[m[K = ros::Time::now();
+      |   [01;31m[K^~~~~~~~~[m[K
+      |   [32m[Kasctime[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:22:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   22 |   last_time = [01;31m[Kros[m[K::Time::now();
+      |               [01;31m[K^~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:24:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   24 |   [01;31m[Kros[m[K::Rate r(1.0);
+      |   [01;31m[K^~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope
+   25 |   while([01;31m[Kn[m[K.ok()){
+      |         [01;31m[K^[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   27 |     [01;31m[Kros[m[K::spinOnce();               // check for incoming messages
+      |     [01;31m[K^~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:28:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+   28 |     current_time = [01;31m[Kros[m[K::Time::now();
+      |                    [01;31m[K^~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:41:20:[m[K [01;31m[Kerror: [m[K‘[01m[KQuaternion[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::Quaternion[m[K’?
+   41 |     geometry_msgs::[01;31m[KQuaternion[m[K odom_quat = tf::createQuaternionMsgFromYaw(th);
+      |                    [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform__struct.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:37[m[K,
+                 from [01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/quaternion__struct.hpp:173:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Quaternion[m[K’ declared here
+  173 | using [01;36m[KQuaternion[m[K =
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:44:20:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’?
+   44 |     geometry_msgs::[01;31m[KTransformStamped[m[K odom_trans;
+      |                    [01;31m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/transform_stamped.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/transform_broadcaster.h:37[m[K,
+                 from [01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:2[m[K:
+[01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/transform_stamped__struct.hpp:155:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ declared here
+  155 | using [01;36m[KTransformStamped[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:45:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_trans[m[K’ was not declared in this scope
+   45 |     [01;31m[Kodom_trans[m[K.header.stamp = current_time;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:52:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_quat[m[K’ was not declared in this scope
+   52 |     odom_trans.transform.rotation = [01;31m[Kodom_quat[m[K;
+      |                                     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:55:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_broadcaster[m[K’ was not declared in this scope
+   55 |     [01;31m[Kodom_broadcaster[m[K.sendTransform(odom_trans);
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:58:15:[m[K [01;31m[Kerror: [m[K‘[01m[KOdometry[m[K’ is not a member of ‘[01m[Knav_msgs[m[K’; did you mean ‘[01m[Knav_msgs::msg::Odometry[m[K’?
+   58 |     nav_msgs::[01;31m[KOdometry[m[K odom;
+      |               [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:3[m[K:
+[01m[K/opt/ros/foxy/include/nav_msgs/msg/detail/odometry__struct.hpp:171:7:[m[K [01;36m[Knote: [m[K‘[01m[Knav_msgs::msg::Odometry[m[K’ declared here
+  171 | using [01;36m[KOdometry[m[K =
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:59:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom[m[K’ was not declared in this scope
+   59 |     [01;31m[Kodom[m[K.header.stamp = current_time;
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:75:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_pub[m[K’ was not declared in this scope
+   75 |     [01;31m[Kodom_pub[m[K.publish(odom);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:78:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kr[m[K’ was not declared in this scope
+   78 |     [01;31m[Kr[m[K.sleep();
+      |     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/odometry.dir/build.make:63: CMakeFiles/odometry.dir/src/odometry.cpp.o] Fehler 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/odometry.dir/all] Fehler 2
+make: *** [Makefile:141: all] Fehler 2

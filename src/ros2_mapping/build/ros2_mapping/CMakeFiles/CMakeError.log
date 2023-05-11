@@ -1,0 +1,58 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/felix/ydlidar_ros2_ws/src/ros2_mapping/build/ros2_mapping/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_63972/fast && /usr/bin/make -f CMakeFiles/cmTC_63972.dir/build.make CMakeFiles/cmTC_63972.dir/build
+make[1]: Verzeichnis „/home/felix/ydlidar_ros2_ws/src/ros2_mapping/build/ros2_mapping/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_63972.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_63972.dir/src.c.o   -c /home/felix/ydlidar_ros2_ws/src/ros2_mapping/build/ros2_mapping/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_63972
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63972.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_63972.dir/src.c.o  -o cmTC_63972 
+/usr/bin/ld: CMakeFiles/cmTC_63972.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_63972.dir/build.make:87: cmTC_63972] Fehler 1
+make[1]: Verzeichnis „/home/felix/ydlidar_ros2_ws/src/ros2_mapping/build/ros2_mapping/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:121: cmTC_63972/fast] Fehler 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/felix/ydlidar_ros2_ws/src/ros2_mapping/build/ros2_mapping/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0cfde/fast && /usr/bin/make -f CMakeFiles/cmTC_0cfde.dir/build.make CMakeFiles/cmTC_0cfde.dir/build
+make[1]: Verzeichnis „/home/felix/ydlidar_ros2_ws/src/ros2_mapping/build/ros2_mapping/CMakeFiles/CMakeTmp“ wird betreten
+Building C object CMakeFiles/cmTC_0cfde.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0cfde.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0cfde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0cfde.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0cfde.dir/CheckFunctionExists.c.o  -o cmTC_0cfde  -lpthreads 
+/usr/bin/ld: -lpthreads kann nicht gefunden werden
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_0cfde.dir/build.make:87: cmTC_0cfde] Fehler 1
+make[1]: Verzeichnis „/home/felix/ydlidar_ros2_ws/src/ros2_mapping/build/ros2_mapping/CMakeFiles/CMakeTmp“ wird verlassen
+make: *** [Makefile:121: cmTC_0cfde/fast] Fehler 2
+
+
+
