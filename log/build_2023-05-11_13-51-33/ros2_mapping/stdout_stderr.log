@@ -1,8 +1,0 @@
-CMake Error at CMakeLists.txt:43:
-  Parse error.  Function missing ending ")".  End of file reached.
-
-
--- Configuring incomplete, errors occurred!
-See also "/home/felix/ydlidar_ros2_ws/build/ros2_mapping/CMakeFiles/CMakeOutput.log".
-See also "/home/felix/ydlidar_ros2_ws/build/ros2_mapping/CMakeFiles/CMakeError.log".
-make: *** [Makefile:266: cmake_check_build_system] Fehler 1
