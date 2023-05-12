@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target odometry[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odometry.dir/src/odometry.cpp.o[0m
+[01m[K/home/felix/ydlidar_ros2_ws/src/ros2_mapping/src/odometry.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/transformStamped.hpp: Datei oder Verzeichnis nicht gefunden
+    4 | #include [01;31m[K"geometry_msgs/msg/transformStamped.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/odometry.dir/build.make:63: CMakeFiles/odometry.dir/src/odometry.cpp.o] Fehler 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/odometry.dir/all] Fehler 2
+make: *** [Makefile:141: all] Fehler 2

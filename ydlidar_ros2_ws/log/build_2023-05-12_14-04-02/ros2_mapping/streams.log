@@ -1,0 +1,30 @@
+[0.035s] Invoking command in '/home/felix/ydlidar_ros2_ws/build/ros2_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felix/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/felix/ros2_ws/install/examples_rclpy_minimal_service:/home/felix/ros2_ws/install/examples_rclpy_minimal_publisher:/home/felix/ros2_ws/install/examples_rclpy_minimal_client:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_server:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_client:/home/felix/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/felix/ydlidar_ros2_ws/build/ros2_mapping -- -j6 -l6
+[0.123s] [35m[1mScanning dependencies of target odometry[0m
+[0.162s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry.dir/src/odometry.cpp.o[0m
+[3.737s] [100%] [32m[1mLinking CXX executable odometry[0m
+[4.439s] [100%] Built target odometry
+[4.454s] Invoked command in '/home/felix/ydlidar_ros2_ws/build/ros2_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felix/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/felix/ros2_ws/install/examples_rclpy_minimal_service:/home/felix/ros2_ws/install/examples_rclpy_minimal_publisher:/home/felix/ros2_ws/install/examples_rclpy_minimal_client:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_server:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_client:/home/felix/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/felix/ydlidar_ros2_ws/build/ros2_mapping -- -j6 -l6
+[4.481s] Invoking command in '/home/felix/ydlidar_ros2_ws/build/ros2_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felix/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/felix/ros2_ws/install/examples_rclpy_minimal_service:/home/felix/ros2_ws/install/examples_rclpy_minimal_publisher:/home/felix/ros2_ws/install/examples_rclpy_minimal_client:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_server:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_client:/home/felix/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/felix/ydlidar_ros2_ws/build/ros2_mapping
+[4.489s] -- Install configuration: ""
+[4.491s] -- Installing: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/lib/ros2_mapping/odometry
+[4.499s] -- Set runtime path of "/home/felix/ydlidar_ros2_ws/install/ros2_mapping/lib/ros2_mapping/odometry" to ""
+[4.499s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/launch
+[4.499s] -- Installing: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/launch/online_async_launch.py
+[4.499s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/config
+[4.500s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/config/mapper_params_online_async.yaml
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ament_index/resource_index/package_run_dependencies/ros2_mapping
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ament_index/resource_index/parent_prefix_path/ros2_mapping
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/ament_prefix_path.sh
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/ament_prefix_path.dsv
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/path.sh
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/environment/path.dsv
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.bash
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.sh
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.zsh
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/local_setup.dsv
+[4.501s] -- Installing: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/package.dsv
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ament_index/resource_index/packages/ros2_mapping
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/cmake/ros2_mappingConfig.cmake
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/cmake/ros2_mappingConfig-version.cmake
+[4.501s] -- Up-to-date: /home/felix/ydlidar_ros2_ws/install/ros2_mapping/share/ros2_mapping/package.xml
+[4.506s] Invoked command in '/home/felix/ydlidar_ros2_ws/build/ros2_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felix/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/felix/ros2_ws/install/examples_rclpy_minimal_service:/home/felix/ros2_ws/install/examples_rclpy_minimal_publisher:/home/felix/ros2_ws/install/examples_rclpy_minimal_client:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_server:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_client:/home/felix/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/felix/ydlidar_ros2_ws/build/ros2_mapping

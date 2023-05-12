@@ -1,0 +1,2 @@
+Invoking command in '/home/felix/ydlidar_ros2_ws/build/ros2_mapping': /usr/bin/cmake --build /home/felix/ydlidar_ros2_ws/build/ros2_mapping -- -j6 -l6
+Invoked command in '/home/felix/ydlidar_ros2_ws/build/ros2_mapping' returned '2': /usr/bin/cmake --build /home/felix/ydlidar_ros2_ws/build/ros2_mapping -- -j6 -l6

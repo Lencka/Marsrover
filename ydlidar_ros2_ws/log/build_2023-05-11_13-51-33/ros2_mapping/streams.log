@@ -1,0 +1,10 @@
+[0.032s] Invoking command in '/home/felix/ydlidar_ros2_ws/build/ros2_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felix/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/felix/ros2_ws/install/examples_rclpy_minimal_service:/home/felix/ros2_ws/install/examples_rclpy_minimal_publisher:/home/felix/ros2_ws/install/examples_rclpy_minimal_client:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_server:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_client:/home/felix/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/felix/ydlidar_ros2_ws/build/ros2_mapping -- -j6 -l6
+[0.053s] CMake Error at CMakeLists.txt:43:
+[0.054s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.055s] 
+[0.055s] 
+[0.055s] -- Configuring incomplete, errors occurred!
+[0.055s] See also "/home/felix/ydlidar_ros2_ws/build/ros2_mapping/CMakeFiles/CMakeOutput.log".
+[0.055s] See also "/home/felix/ydlidar_ros2_ws/build/ros2_mapping/CMakeFiles/CMakeError.log".
+[0.056s] make: *** [Makefile:266: cmake_check_build_system] Fehler 1
+[0.058s] Invoked command in '/home/felix/ydlidar_ros2_ws/build/ros2_mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/felix/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/felix/ros2_ws/install/examples_rclpy_minimal_service:/home/felix/ros2_ws/install/examples_rclpy_minimal_publisher:/home/felix/ros2_ws/install/examples_rclpy_minimal_client:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_server:/home/felix/ros2_ws/install/examples_rclpy_minimal_action_client:/home/felix/ros2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/felix/ydlidar_ros2_ws/build/ros2_mapping -- -j6 -l6
